@@ -1,0 +1,39 @@
+************************************
+Submitted by:
+Shay Ezer
+Daniel Niazov 
+************************************
+
+Implementation:
+
+The game begin with two groups: pink and cyan. every group has 3 NPC (2 soldiers and 1 carrier).
+Each soldier has ammo and hp (health point) in the beginning of game,
+there is 2 stocks of ammo (brown points on map), and there is 2 stocks of hp (green points on map).
+The movement inside the rooms in the map was by A* algorithm.
+
+Each NPC (soldier,carrier) has actions that belongs to him.
+
+Soldier Actions:
+1. FindTargetPoint // Find the closer ammo or health point to soldier
+2. SetSecurePoint // Find the secure point in the current room
+3. Attack
+	3.1 Shoot // Shoot Bullet
+	3.2 ThrowGrenade // Throw Grenade
+4. SearchForAmmo // Soldier searching for ammo
+5. SearchForHealth // Soldier searching for health
+6. SearchForCover //Soldier searching for secure place (behind wall)
+7. MoveToRandomRoom //run away
+8. SearchForEnemy //transform his action to attack opponet.
+
+Carrier Actions:
+1. Suply ammo to his teammate soldiers.
+2. Suply health points to his teammate soldiers.
+3. if he get injured, he also can take hp or ammo from the stocks all over the map.
+
+In each of level in the game there is logs beside the game that tell's us what is going on with the team NPC's.
+when all of the NPC's of the team is dead, the game is over.
+
+(We didn't add the visibility map, because when the game start, we didn't want that the will be on the map
+and the visibility map will cover on the NPC's.
+
+Thank you!   

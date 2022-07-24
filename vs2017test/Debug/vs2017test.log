@@ -1,0 +1,38 @@
+﻿  Ammo.cpp
+  Attack.cpp
+  Bullet.cpp
+  Cell.cpp
+  CompareCells.cpp
+  Grenade.cpp
+  HealthPoints.cpp
+  main.cpp
+  MazeHandler.cpp
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\mazehandler.cpp(10): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\mazehandler.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Room.cpp
+  SearchAmmoAndHealth.cpp
+  SearchForCover.cpp
+  SearchForEnemy.cpp
+  NPC.cpp
+  State.cpp
+  SuplyAmmoAndHealth.cpp
+  Teams.cpp
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(10): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(63): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(72): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(78): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(110): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(121): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(127): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(131): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(136): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\user\desktop\dungeon\vs2017test\vs2017test\teams.cpp(142): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  vs2017test.vcxproj -> C:\Users\user\Desktop\Dungeon\vs2017test\Debug\vs2017test.exe
